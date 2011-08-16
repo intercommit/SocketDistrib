@@ -1,0 +1,20 @@
+https://github.com/intercommit/SocketDistrib
+
+New repo:
+
+mkdir SocketDistrib
+cd SocketDistrib
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:intercommit/SocketDistrib.git
+git push -u origin master
+
+Existing repo:
+
+cd existing_git_repo
+git remote add origin git@github.com:intercommit/SocketDistrib.git
+git push -u origin master
+
+Commit dry-run: git commit --dry-run -a
