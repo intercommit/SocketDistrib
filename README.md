@@ -2,7 +2,11 @@ SocketDistrib
 =============
 
 The basis for a Java multi-threaded socket network server. 
-Not just an example, but actually used in our 24x7 production systems.
+
+DEPRECATED: development on this project has stopped. 
+SocketDistrib is now part of Yapool (http://yapool.googlecode.com/).
+
+SocketDistrib is not just an example, but actually used in our 24x7 production systems.
 It is small (5 average sized classes) and fast (using Java concurrent) 
 and designed (see Wiki pages) with previous experiences with network server implementations in mind.
 
